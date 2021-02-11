@@ -9,7 +9,11 @@
         <meta charset="UTF-8">
         <title>Sprint 2: Dice Roller</title>
     </head>
-    <body onload="">
-        <h1>Dice</h1>
+    <body onload="RollSixSidedDice()">
+        <h1 style="text-align: center;">Dice roller: Craps</h1>
+        Die 1: <input id="dice1" type="text" value="" size="5" disabled><br>
+        Die 2: <input id="dice2" type="text" value="" size="5" disabled><br>
+        <button type="button" onclick="RollSixSidedDice()" autofocus>Roll!</button>
+        <p>Roll some craps! Just click the button or hit enter to roll two dice.</p>
     </body>
 </html>
